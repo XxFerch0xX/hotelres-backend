@@ -43,3 +43,4 @@ class UsuarioService:
         usuario = self.obtener(usuario_id)
         self.repo.delete(usuario)
         return {"detail": "Usuario eliminado"}
+# Servicio de usuarios 
