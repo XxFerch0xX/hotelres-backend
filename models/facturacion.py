@@ -69,3 +69,4 @@ class Pago(Base):
     fecha = Column(DateTime, default=lambda: datetime.now(timezone.utc))
 
     reserva = relationship("Reserva", back_populates="pagos")
+# Modelos de facturacion 
