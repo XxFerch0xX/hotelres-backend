@@ -82,3 +82,4 @@ class PagoService:
     def crear(self, data: PagoCreate):
         pago = Pago(**data.model_dump())
         return self.repo.create(pago)
+# Servicio de facturacion 
