@@ -32,3 +32,4 @@ def actualizar_usuario(usuario_id: int, data: UsuarioUpdate, db: Session = Depen
 @router.delete("/{usuario_id}")
 def eliminar_usuario(usuario_id: int, db: Session = Depends(get_db)):
     return UsuarioService(db).eliminar(usuario_id)
+# Controlador de usuarios 
