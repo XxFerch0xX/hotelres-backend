@@ -27,3 +27,4 @@ class Cliente(Base):
 
     reservas = relationship("Reserva", back_populates="cliente")
     facturas = relationship("Factura", back_populates="cliente")
+# Modelo de clientes 
