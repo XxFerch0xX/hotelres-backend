@@ -56,3 +56,4 @@ class GastoOperativo(Base):
 
     cuenta = relationship("CuentaContable", back_populates="gastos")
     usuario = relationship("Usuario", back_populates="gastos")
+# Modelos financieros 
