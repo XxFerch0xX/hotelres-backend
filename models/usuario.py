@@ -29,3 +29,4 @@ class Usuario(Base):
     asientos = relationship("AsientoContable", back_populates="usuario")
     gastos = relationship("GastoOperativo", back_populates="usuario")
     auditorias = relationship("AuditoriaLog", back_populates="usuario")
+# Modelos del sistema 
