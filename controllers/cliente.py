@@ -37,3 +37,4 @@ def actualizar_cliente(cliente_id: int, data: ClienteUpdate, db: Session = Depen
 @router.delete("/{cliente_id}")
 def eliminar_cliente(cliente_id: int, db: Session = Depends(get_db)):
     return ClienteService(db).eliminar(cliente_id)
+# Controlador de clientes 
