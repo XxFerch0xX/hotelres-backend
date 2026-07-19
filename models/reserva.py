@@ -44,3 +44,4 @@ class ReservaHabitacion(Base):
 
     reserva = relationship("Reserva", back_populates="reserva_habitaciones")
     habitacion = relationship("Habitacion", back_populates="reserva_habitaciones")
+# Modelo de reservas 
