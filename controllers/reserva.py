@@ -52,3 +52,4 @@ def checkout(reserva_id: int, db: Session = Depends(get_db)):
 @router.post("/{reserva_id}/cancelar", response_model=ReservaResponse)
 def cancelar(reserva_id: int, data: CancelacionRequest, db: Session = Depends(get_db)):
     return ReservaService(db).cancelar(reserva_id, data)
+# Controlador de reservas 
