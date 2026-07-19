@@ -51,3 +51,4 @@ def listar_pagos(reserva_id: int, db: Session = Depends(get_db)):
 @router.post("/pagos", response_model=PagoResponse, status_code=201)
 def crear_pago(data: PagoCreate, db: Session = Depends(get_db)):
     return PagoService(db).crear(data)
+# Controlador de facturacion 
