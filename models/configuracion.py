@@ -32,3 +32,4 @@ class AuditoriaLog(Base):
     fecha = Column(DateTime, default=lambda: datetime.now(timezone.utc))
 
     usuario = relationship("Usuario", back_populates="auditorias")
+# Configuracion del sistema 
