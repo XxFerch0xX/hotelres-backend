@@ -31,3 +31,4 @@ app.include_router(configuracion_router)
 @app.get("/", tags=["Root"])
 def root():
     return {"mensaje": "Bienvenido a HotelRes API", "docs": "/docs"}
+# App principal 
