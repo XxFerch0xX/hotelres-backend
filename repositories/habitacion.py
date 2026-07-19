@@ -58,3 +58,4 @@ class HabitacionRepository:
     def delete(self, habitacion: Habitacion):
         self.db.delete(habitacion)
         self.db.commit()
+# Repositorio de habitaciones 
