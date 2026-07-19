@@ -94,3 +94,4 @@ Una vez levantado el servidor, acceder a:
 - **Pydantic** - Validación de datos
 - **Uvicorn** - Servidor ASGI
 # Pruebas con pytest y coverage 
+# Pruebas con pytest y coverage 
